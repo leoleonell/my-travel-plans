@@ -1,9 +1,17 @@
+:root{
+  --lome:red;
+  --abidjan:blue;
+  --alger:grey;
+
+}
+
+
 html { 
   box-sizing: border-box; 
   height: 100%;
 }
 
-, ::before, *::after { 
+ ::before, *::after { 
   box-sizing: inherit; 
 }
 
@@ -70,4 +78,14 @@ header{
 
 #visited { 
   background-color: green; 
+}
+
+.alger{
+  background-color:var(--alger);
+}
+.lome{
+  background-color:var(--lome);
+}
+.abidjan{
+  background-color:var(--abidjan);
 }
